@@ -38,7 +38,7 @@ int main() {
 
 
 		//Render
-		window.clear(sf::Color::Blue); //clear old frame
+		window.clear(sf::Color::Red); //clear old frame
 
 		//Draw your game
 		window.display(); //Tell app that window is done drawing
