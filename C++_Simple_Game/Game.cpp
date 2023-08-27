@@ -9,7 +9,7 @@ void Game::initVariables()
 void Game::initWindow()
 {
 	this->videoMode.height = 600;
-	this->videoMode.width = 800;
+	this->videoMode.width = 900;
 	this->window = new sf::RenderWindow(this->videoMode, "Game 1", sf::Style::Titlebar | sf::Style::Close);
 }
 
